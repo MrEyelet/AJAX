@@ -1,0 +1,46 @@
+body{
+	background: url('../img/chuck.jpg');
+	overflow: hidden;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.button {
+	width: 50%;
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+p {
+	padding: 15px;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	background: none;
+	color: #fff;
+	border: 3px solid #fff;
+	box-shadow: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 26px;
+	transition: .5s;
+}
+
+button:hover {
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+}
+button:active {
+	transform: scale(1,1);
+}
