@@ -39,8 +39,7 @@ button {
 
 button:hover {
 	cursor: pointer;
-	transform: scale(1.2,1.2);
 }
 button:active {
-	transform: scale(1,1);
+	transform: scale(.8,.8);
 }

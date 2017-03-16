@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+main {
+	background: blue;
+	height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 25px;
+	color: #fff;
+}
+
+h2, h3 {
+	font-style: italic;
+}
+
+.tweet {
+	margin: 0 auto;
+	width: 200px;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.box {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-bottom: 25px;
+}
+
+button {
+	display: block;
+	margin: 0 auto 25px;
+	background: none;
+	width: 200px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 3px solid #fff;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
