@@ -1,9 +1,20 @@
-body{
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	margin 0 auto;
+}
+
+.background {
 	background: url('../img/chuck.jpg');
 	overflow: hidden;
 	background-size: cover;
-	height: 100vh;
+	background-position: top;
 	position: relative;
+	height: 100vh;
 }
 
 .button {
@@ -26,7 +37,7 @@ p {
 button {
 	display: block;
 	margin: 0 auto;
-	width: 300px;
+	width: 50%;
 	background: none;
 	color: #fff;
 	border: 3px solid #fff;
@@ -42,4 +53,10 @@ button:hover {
 }
 button:active {
 	transform: scale(.8,.8);
+}
+
+@media(max-width: 480px) {
+	.button {
+		width: 100%;
+	}
 }
